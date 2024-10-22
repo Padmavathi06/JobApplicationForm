@@ -1,0 +1,81 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, sans-serif;
+}
+
+h1{
+    color:navy;
+    text-align: center;
+    transition: 5s;
+    border-bottom:2px solid black;
+    padding:10px;
+}
+body{
+    background-color: lightblue;
+}
+.studentform{
+    width:50%;
+    margin:20px;
+    border:2px solid black;
+    padding:20px;
+    margin-left:25%;
+    margin-top: 40px;
+
+}
+label{
+    font-weight:bold ;
+}
+input{
+    width:500px;
+    padding:10px;
+    margin:5px;
+    margin-left: 35px;
+    border:none;
+    border: 2px solid black;
+}
+input[type="file"]{
+  border:none;
+  
+}
+
+input[type="number"]{
+    margin-left: 52px;
+}
+
+input[type="number"]{
+    margin-left: 50px;
+}
+input[type="radio"],[type="checkbox"]{
+    width:50px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+button{
+    font-size: 20px;
+    width:200px;
+    margin-top: 30px;
+    background-color: green;
+    font-weight: 600;
+    margin-left: 35%;
+}
+   
+table{
+     margin-top:20px;
+     border-collapse: collapse;
+     width:80%;
+     margin-left:auto;
+     margin-right: auto;
+     margin-top: 40px;
+
+}
+th,td{
+    border:2px solid black;
+    background-color:darkgoldenrod;
+    font-size: 20px;
+}
+td{
+     background-color:lightgrey;
+     text-align: center;
+}
